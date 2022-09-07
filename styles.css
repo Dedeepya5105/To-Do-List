@@ -1,0 +1,59 @@
+body{
+  background-color: powderblue;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #typing_content {
+    height: 27px;
+    width: 215px;
+    outline: none;
+    border: 1px solid black;
+    vertical-align: middle;
+  }
+  #adding_content {
+    height: 29px;
+    width: 35px;
+    border: none;
+    border: 1px solid black;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  #todo {
+    height: 500px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 20%;
+  }
+  #inputs {
+    display: flex;
+  }
+  #typing_content,
+  #adding_content {
+    margin-top: 20px;
+  }
+  #typing_content[type="text"] {
+    padding-left: 3px;
+   
+  }
+  .inputs {
+    display: flex;
+  }
+  .para_styling {
+    font-size: 22px;
+    font-variant: small-caps;
+    font-weight: 600;
+    cursor: pointer;
+    color: darkslateblue;
+  }
+  
